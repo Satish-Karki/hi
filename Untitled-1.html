@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us or Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1c1c3c;
+            color: #fff;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+        
+        .subheading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .subheading .line {
+            flex: 1;
+            height: 1px;
+            background-color: #ffcc00;
+        }
+        
+        .subheading .text {
+            padding: 0 10px;
+            color: #ffcc00;
+        }
+        
+        form {
+            display: flex;
+            justify-content: center;
+        }
+        
+        input[type="email"] {
+            width: 300px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Join Us or Login</h1>
+        <div class="subheading">
+            <span class="line"></span>
+            <span class="text">With your email</span>
+            <span class="line"></span>
+        </div>
+        <form>
+            <input type="email" placeholder="Your email" required>
+        </form>
+    </div>
+</body>
+</html>
